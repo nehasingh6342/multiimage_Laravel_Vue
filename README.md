@@ -2,16 +2,14 @@
 
 Make sure to install the dependencies:
 
-create .env file and set the database name 
+## Installation
 
+1. Edit `.env` and set your database connection details
+2. Run `composer install` or `composer update`
+3. Run `php artisan key:generate` and `php artisan jwt:secret`
+4. Run `php artisan migrate`
+5. Run `npm install` to install the frontend stuff
 
-# npm
-npm install
-
-# composer update
-composer update
-
-``
 
 ```bash
 npm run watch
@@ -20,3 +18,5 @@ npm run watch
 ```bash
 php artisan serve
 ```
+
+
